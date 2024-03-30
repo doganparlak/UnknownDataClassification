@@ -10,6 +10,8 @@ This repository contains code for a classification task aimed at achieving a tar
 
 3. **Ensemble Learning:** The ensemble of models is constructed, and their contributions to the final prediction are determined using Gaussian Process Minimization.
 
+4. **Desired Loss:** The model achieves a cross entropy loss of 0.44, which was determined to be the success threshold for the case study.
+
 #### Repository Contents:
 
 - `swc_casestudy.ipynb`: This Jupyter notebook encompasses the entire pipeline, including data preprocessing, model training, validation, testing, and ensemble learning steps.
